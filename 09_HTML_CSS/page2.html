@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Input</h1>
+    <input type="text" placeholder="username">
+    <input type="password" id="inputText" placeholder="password">
+    <button onclick="reflectTextAsHTML()">Click Me</button>
+    <div id = "output">
+
+    </div>
+</body>
+<script>
+    function reflectTextAsHTML(){
+        var inputText = document.getElementById('inputText').value;
+        document.getElementById('output').innerHTML = inputText
+    }
+</script>
+
+<hr>
+
+<h3>Our Lists</h3>
+<ul>
+    <li>I like computers</li>
+    <li>I like gaming</li>
+    <li>I like coding</li>
+    <li>I don't like UIUX</li>
+</ul>
+
+<hr>
+
+<ol>
+    <li>I like computers</li>
+    <li>I like gaming</li>
+    <li>I like coding</li>
+    <li>I don't like UIUX</li>
+</ol>
+</html>
+
+<!-- <img src="this will not work" onerror="alert(1)" alt=""> -->
+<!-- <iframe onload="javascript:alert(1)"></iframe> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
