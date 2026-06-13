@@ -7,6 +7,7 @@ requires-python = ">=3.12"
 dependencies = [
     "bs4>=0.0.2",
     "requests>=2.34.2",
+    "scapy>=2.7.0",
     "selenium>=4.44.0",
     "webdriver-manager>=4.1.2",
 ]
