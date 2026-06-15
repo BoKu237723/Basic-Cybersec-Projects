@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Gliders</title>
+</head>
+<body>
+    <h1>This page is about Sugar Gliders :></h1>
+    <p>Sugar gliders are a highly social, tree-dwelling species that are native to Australia and New Guinea. They are nocturnal creatures that glide between trees - gliding as far as 45 metres between trees - and rarely come down from tree canopies.</p>
+    <form method="post" action="/about">
+        <input type="text" name="xss_input">
+        <input type="submit" value="submit">
+    </form>
+    <div>
+        {{ user_input }}
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Sugar Glider Test Page</title>
+</head>
+<body>
+
+    <h1>All About Sugar Gliders</h1>
+    <p>Sugar gliders (<em>Petaurus breviceps</em>) are small, nocturnal gliding possums native to eastern and northern mainland Australia, New Guinea, and certain Indonesian islands. They get their common name from their preference for sugary nectarous foods and their ability to glide through the air, much like a flying squirrel!</p>
+
+    <h2>Flask Image Test</h2>
+    <p>If your Flask routing and static folder are set up correctly, you should see two images of sugar gliders below:</p>
+
+    <div class="image-container">
+        <div class="card">
+            <img src="{{ url_for('static', filename='img1.png') }}" alt="Sugar Glider Peeking">
+            <p><strong>Image 1:</strong> Looking adorable.</p>
+        </div>
+
+        <div class="card">
+            <img src="{{ url_for('static', filename='img2.png') }}" alt="Sugar Glider Gliding">
+            <p><strong>Image 2:</strong> Ready for takeoff.</p>
+        </div>
+    </div>
+
+    <div style="align-self: center;">
+        <a href="about">
+            <button>About Gliders!</button>
+        </a>
+    </div>
+
+</body>
+</html>
