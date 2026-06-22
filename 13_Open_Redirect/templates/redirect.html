@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Open Redirect</h1>
+    <a href="/open?url=http://127.0.0.1:5000">
+        <img src="/static/img1.png" style="height: 100px; width: 130px;" alt="">
+    </a>
+
+    <form action="/redirect">
+        <label for="url">Redirect to:</label>
+        <input type="text" name="url" placeholder="your url">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
